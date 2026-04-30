@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jessica Farm 🌾</title>
+  <meta name="description" content="Jessica Farm — conteúdo exclusivo e acesso VIP." />
+  <meta property="og:title" content="Jessica Farm 🌾" />
+  <meta property="og:description" content="Se no TikTok já mexeu com você, imagina no privado…" />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg-1: #1b120d;
+      --bg-2: #3b2517;
+      --card: rgba(255,255,255,0.08);
+      --text: #fff8f2;
+      --muted: #eed9c9;
+      --accent: #ff8a3d;
+      --accent-2: #ffb36b;
+      --border: rgba(255,255,255,0.14);
+      --shadow: 0 20px 60px rgba(0,0,0,0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(255,179,107,0.16), transparent 35%),
+        linear-gradient(160deg, var(--bg-1), var(--bg-2));
+      color: var(--text);
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 460px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 32px 24px;
+      backdrop-filter: blur(12px);
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.05);
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 6vw, 42px);
+      line-height: 1.05;
+    }
+
+    .subtitle {
+      margin: 14px 0 28px;
+      font-size: 17px;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    .buttons {
+      display: grid;
+      gap: 14px;
+      margin-top: 10px;
+    }
+
+    .button {
+      display: block;
+      text-decoration: none;
+      padding: 16px 20px;
+      border-radius: 18px;
+      font-weight: 700;
+      font-size: 16px;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.28);
+      opacity: 0.98;
+    }
+
+    .button.primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #2b1609;
+    }
+
+    .button.secondary {
+      background: rgba(255,255,255,0.08);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .footer {
+      margin-top: 22px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .note {
+      margin-top: 10px;
+      font-size: 12px;
+      color: rgba(255,248,242,0.6);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="badge">23 anos • conteúdo exclusivo • acesso VIP</div>
+    <h1>Jessica Farm 🌾</h1>
+    <p class="subtitle">Se no TikTok já mexeu com você, imagina no privado…</p>
+
+    <section class="buttons">
+      <a class="button primary" href="https://privacy.com.br/profile/jessicafarm" target="_blank" rel="noopener noreferrer">Ver tudo no Privacy 🔥</a>
+      <a class="button secondary" href="https://t.me/jessicafarmvip" target="_blank" rel="noopener noreferrer">Entrar no VIP do Telegram 👀</a>
+    </section>
+
+    <p class="footer">O melhor não fica na timeline.</p>
+    <p class="note">Somente para maiores de 18 anos.</p>
+  </main>
+</body>
+</html>
